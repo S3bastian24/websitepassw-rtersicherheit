@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die Welt der Passwörter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6e6e6; /* Edles Grau */
+            color: #333;
+        }
+        header {
+            background: #000;
+            color: #ffffff;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 70px; /* Logo größer */
+            margin-left: 20px;
+        }
+        /* Dropdown-Menü */
+        .menu-container {
+            position: relative;
+            display: inline-block;
+            margin-right: 90px; 
+        }
+        .menu-button {
+            background-color: #000;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+        }
+        .menu-content {
+            display: none;
+            position: absolute;
+            background-color: #d9d9d9; /* Grau */
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+        .menu-content a {
+            color: #000;
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+        }
+        .menu-content a:hover {
+            background-color: #c7c7c7;
+        }
+        .menu-container:hover .menu-content {
+            display: block;
+        }
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 8px;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background: #000;
+            color: #fff;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://www.wff-it.de/assets/wff/images/layout/WFF_IT_Logo_offen.svg" alt="Logo">
+    <h1>Die Welt der Passwörter</h1>
+    <div class="menu-container">
+        <button class="menu-button">Menü</button>
+        <div class="menu-content">
+            <a href="#introduction">Einführung</a>
+            <a href="#tips">Tipps für starke Passwörter</a>
+            <a href="#tools">Passwortmanager</a>
+            <a href="#security">Gefahren im Internet</a>
+            <a href="#history">Geschichte der Passwörter</a>
+            <a href="#contact">Kontakt</a>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <!-- Einführung -->
+    <section id="introduction">
+        <img src="https://i.pinimg.com/236x/43/42/3f/43423f4bc72619050e26aaf2713648c4.jpg" alt="Einführung Bild">
+        <h2>Einführung</h2>
+        <p>Passwörter spielen eine entscheidende Rolle in der digitalen Welt. Sie dienen als Schutzschild für persönliche Daten, Bankkonten und Identitäten. Der zunehmende Datenverkehr im Internet hat die Notwendigkeit sicherer Passwörter verstärkt.</p>
+        <p>Schon ein einziges schwaches Passwort kann zu Identitätsdiebstahl oder finanziellen Schäden führen. In diesem Artikel erfahren Sie, wie Sie starke Passwörter erstellen und Ihre Daten schützen. Passwörter sind in der digitalen Kommunikation heute allgegenwärtig, sei es für E-Mail-Konten, Social-Media-Profile oder Online-Banking-Services.</p>
+        <p>Die Wahl eines sicheren Passworts ist entscheidend, um sich vor Datenverlust, Hackerangriffen und Identitätsdiebstahl zu schützen. Es gibt jedoch viele Menschen, die noch immer unsichere Passwörter verwenden, was das Risiko erhöht. Dieser Artikel hilft Ihnen dabei, Ihre digitalen Identitäten effektiv zu sichern und gleichzeitig die Prinzipien der Passwortsicherheit zu verstehen.</p>
+    </section>
+
+    <!-- Tipps für starke Passwörter -->
+    <section id="tips">
+        <h2>Tipps für starke Passwörter</h2>
+        <ul>
+            <li>**Länge**: Ein sicheres Passwort sollte mindestens 12-16 Zeichen lang sein.</li>
+            <li>**Vielfalt**: Verwenden Sie eine Kombination aus Großbuchstaben, Kleinbuchstaben, Zahlen und Sonderzeichen.</li>
+            <li>**Vermeiden Sie Wiederholung**: Nutzen Sie nicht dasselbe Passwort für mehrere Konten.</li>
+            <li>**Vermeiden Sie persönliche Informationen**: Geben Sie keine leicht zu erratenden Informationen wie Namen, Geburtsdaten oder Telefonnummern in Ihrem Passwort an.</li>
+            <li>**Verwendung von Passwort-Manager**: Ein Passwort-Manager kann dabei helfen, komplexe Passwörter zu speichern, ohne sie sich merken zu müssen.</li>
+        </ul>
+        <img src="https://i.pinimg.com/736x/ac/7b/04/ac7b04644cb42a0cd63d3030a8ec37fc.jpg" alt="Tipps Bild">
+        <p>Die Wahl eines sicheren Passworts ist die erste und wichtigste Maßnahme, um Online-Konten zu schützen. Achten Sie darauf, dass Ihr Passwort einzigartig und nicht einfach zu erraten ist. Besonders wichtig ist, dass Sie nicht dasselbe Passwort für verschiedene Online-Dienste verwenden.</p>
+    </section>
+
+    <!-- Passwortmanager -->
+    <section id="tools">
+        <h2>Passwortmanager</h2>
+        <p>Ein Passwortmanager ist ein digitales Werkzeug, das alle Ihre Passwörter sicher speichert. Sie müssen sich nur ein Master-Passwort merken, um Zugriff auf alle gespeicherten Passwörter zu erhalten. Passwortmanager erleichtern nicht nur das sichere Speichern, sondern auch das Verwalten Ihrer Passwörter.</p>
+        <p>Die Verwendung eines Passwort-Managers sorgt dafür, dass Sie nicht auf einfache, wiederverwendbare Passwörter zurückgreifen müssen. Moderne Passwort-Manager können auch Passwörter automatisch ausfüllen und sicher teilen, was den Umgang mit sensiblen Daten erheblich vereinfacht.</p>
+        <img src="https://th.bing.com/th/id/OIP.nPzaOvAqjxvN8Uze5kRQ1QHaEK?w=322&h=181&c=7&r=0&o=5&pid=1.7" alt="Passwortmanager Bild">
+    </section>
+
+    <!-- Gefahren im Internet -->
+    <section id="security">
+        <img src="https://th.bing.com/th/id/OIP.33fbl3iQCZXHprE_D1t3fQHaEc?w=294&h=180&c=7&r=0&o=5&pid=1.7" alt="Gefahren Bild">
+        <h2>Gefahren im Internet</h2>
+        <p>Cyberkriminelle nutzen verschiedene Techniken, um an Ihre Daten zu gelangen. Die häufigsten Gefahren sind:</p>
+        <ul>
+            <li>**Phishing**: Betrügerische E-Mails, die Sie zur Eingabe Ihrer Passwörter verleiten.</li>
+            <li>**Keylogger**: Software, die alle Tastatureingaben aufzeichnet.</li>
+            <li>**Brute-Force-Angriffe**: Ein automatisierter Prozess, der tausende Passwortkombinationen ausprobiert.</li>
+            <li>**Man-in-the-Middle-Angriffe**: Bei diesem Angriff wird die Kommunikation zwischen Ihnen und einer Website abgefangen, um an sensible Daten zu gelangen.</li>
+        </ul>
+        <p>Diese und viele andere Techniken werden von Kriminellen genutzt, um Schwächen in Ihrer digitalen Sicherheit auszunutzen. Es ist wichtig, sich der Bedrohungen bewusst zu sein und entsprechend zu handeln, um seine Online-Identität zu schützen.</p>
+    </section>
+
+    <!-- Geschichte der Passwörter -->
+    <section id="history">
+        <h2>Die Geschichte der Passwörter</h2>
+        <p>Die Verwendung von Passwörtern reicht bis in die Antike zurück, wo Wachen geheime „Kennwörter“ nutzten. In der modernen IT-Welt entstanden Passwörter in den 1960er Jahren, als die ersten Computer-Netzwerke zur Verwaltung von Informationen verwendet wurden. Zu dieser Zeit waren Passwörter die einfachste Methode, um den Zugang zu einem Computer oder Netzwerk zu sichern.</p>
+        <p>Im Laufe der Zeit haben sich Passwörter weiterentwickelt und sind zu einem wichtigen Bestandteil der modernen IT-Sicherheit geworden. Während einfache Passwörter in den Anfangsjahren ausreichten, sind sie heute aufgrund der wachsenden Bedrohungen aus der Cyberkriminalität nicht mehr sicher genug.</p>
+        <img src="data:image/jpeg;base64,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" alt="Geschichte Bild">
+        <p>Mit der Entwicklung von Technologie und der Zunahme von Online-Diensten ist die Bedeutung sicherer Passwörter weiter gewachsen. Um den Anforderungen der modernen Sicherheitspraktiken gerecht zu werden, sind zunehmend mehrschichtige Authentifizierungsmethoden erforderlich, wie zum Beispiel die Zwei-Faktor-Authentifizierung.</p>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">E-Mail:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Nachricht:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit" class="button">Absenden</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 WFF-IT. Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
